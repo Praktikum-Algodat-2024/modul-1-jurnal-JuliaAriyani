@@ -51,4 +51,15 @@ class LinkedList {
                 return
             }
         }
+        ListNode current=head;
+        ListNode previous=null;
+        //Methode untuk menampilkan data
+        public void display(){
+            Node temp = head;
+            while(temp != null){
+                System.out.println(temp.data + " ");
+                temp = temp.next;
+            }
+            System.out.println()
+        }
     }
